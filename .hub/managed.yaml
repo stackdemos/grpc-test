@@ -1,0 +1,56 @@
+parameters:
+  - name: application.description
+    value: Java microservice with Spring Boot
+  - name: application.ecr.path
+    value: grpc-test
+  - name: application.humanName
+    value: grpc-test
+  - name: application.ingress
+    value: grpc-test.app.dev1.demo10.superhub.io
+  - name: application.name
+    value: grpc-test
+  - name: application.namespace
+    value: applications
+  - name: application.path
+    value: /
+  - name: application.replicas
+    value: '1'
+  - name: author.email
+    value: karthikman@verily.com
+  - name: author.id
+    value: 00u5k69kz0YUqXuA72p7
+  - name: author.name
+    value: Karthik Manimaran
+  - name: author.organization
+    value: DEMO10
+  - name: component.dex.okta.appId
+    value: 0oa54ly0bvceVMACV2p7
+  - name: component.dex.okta.clientId
+    value: 0oa54ly0bvceVMACV2p7
+  - name: component.dex.okta.issuer
+    value: 'https://agilestacks.okta.com'
+  - name: component.github.repository.name
+    value: grpc-test
+  - name: component.github.repository.organization
+    value: stackdemos
+  - name: department.name
+    value: Engineering
+outputs:
+  - name: application.description
+  - name: application.ecr.path
+  - name: application.humanName
+  - name: application.ingress
+  - name: application.name
+  - name: application.namespace
+  - name: application.path
+  - name: application.replicas
+  - name: author.email
+  - name: author.id
+  - name: author.name
+  - name: author.organization
+  - name: component.dex.okta.appId
+  - name: component.dex.okta.clientId
+  - name: component.dex.okta.issuer
+  - name: component.github.repository.name
+  - name: component.github.repository.organization
+  - name: department.name
